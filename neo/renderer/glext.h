@@ -5352,7 +5352,7 @@ typedef unsigned short GLhalfNV;
 #define GLEXT_64_TYPES_DEFINED
 /* Define int32_t, int64_t, and uint64_t types for UST/MSC */
 /* (as used in the GL_EXT_timer_query extension). */
-#if defined(__STDC_VERSION__) && __STDC_VERSION__ >= 199901L
+#if defined(__STDC_VERSION__)
 #include <inttypes.h>
 #elif defined(__sun__) || defined(__digital__)
 #include <inttypes.h>
